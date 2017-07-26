@@ -1,0 +1,27 @@
+<form class="form-horizontal">
+  <div class="checkbox1 control-group">
+    <label>
+      <div class="control">
+        <input id='filterCheckbox1' type="checkbox" value='commented'/> Commented On
+      </div>
+    </label>
+  </div>
+  <div class="checkbox2 control-group">
+    <label>
+      <div class="control">
+        <input id='filterCheckbox2' type="checkbox" value='requester'/> Requested
+      </div>
+    </label>
+  </div>
+  <div class="checkbox3 control-group">
+    <label>
+      <div class="control">
+        <input id='filterCheckbox3' type="checkbox" value='cc'/> Collaborated On
+      </div>
+    </label>
+  </div>
+</form>
+
+<div class="wrapper">
+<button class='displayList ember-view btn'>Get Ticket History</button>
+</div>

@@ -1,0 +1,13 @@
+{
+  "name": "Print History",
+  "author": {
+    "name": "Zendesk Labs",
+    "email": "zendesklabs@zendesk.com",
+    "url": "http://www.zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "location": "user_sidebar",
+  "version": "1.1.1",
+  "frameworkVersion": "1.0"
+}

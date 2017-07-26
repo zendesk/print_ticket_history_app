@@ -1,0 +1,4 @@
+<div class="wrapper">
+<a href="{{url}}" download="tickets - {{userName}}.html" class="btn btn-block download">
+  <i class="icon-download"></i> Download Tickets Printout</a>
+</div>
