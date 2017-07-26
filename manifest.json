@@ -2,8 +2,8 @@
   "name": "Print History",
   "author": {
     "name": "Zendesk Labs",
-    "email": "zendesklabs@zendesk.com",
-    "url": "http://www.zendesk.com"
+    "email": "https://github.com/zendesklabs/print_ticket_history_app",
+    "url": "https://github.com/zendesklabs/print_ticket_history_app"
   },
   "defaultLocale": "en",
   "private": false,

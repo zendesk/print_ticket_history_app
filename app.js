@@ -11,6 +11,7 @@
       'click .checkbox1': 'validateCheckbox',
       'click .checkbox2': 'validateCheckbox',
       'click .checkbox3': 'validateCheckbox',
+      'click #get_support_button': 'showLabsSupport'
     },
 
     requests: {
@@ -105,7 +106,16 @@
         url: url,
         userName: this.userName
       });
-    }
+    },
+    showLabsSupport: function(event){
+            event.preventDefault();
+            var help_link = helpers.fmt("%@/issues", this.author.email);
+            this.$('.labs_support').modal({ //   Fires a modal to display the string that will be redacted and how many times it appears on the ticket.
+                    backdrop: true,
+                    keyboard: false,
+                    button_data: this.$("#create_git_issue").attr("href", help_link)
+            });
+        }
   };
 
 }());
