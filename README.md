@@ -8,7 +8,7 @@ The Print Ticket History app will show all of your existing tickets by requester
 * Tickets the requester has commented on
 * Tickets the requester has been CC'd on
 
-Please submit bug reports to api@zendesk.com. Pull requests are welcome.
+Please submit bug reports to our [issues page](https://github.com/zendesklabs/print_ticket_history_app/issues). Pull requests are welcome.
 
 ### Screenshot(s):
 ![](http://g.recordit.co/Z57uUvP3nG.gif)
