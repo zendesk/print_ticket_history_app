@@ -163,3 +163,21 @@ p, h3 {
   background-color: #aaa;
   border-radius: 5px;
 }
+
+
+footer {
+    clear: both;
+    margin-top: 10px;
+}
+
+footer a {
+    float: right;
+}
+
+div.modal-body {
+  margin: 10px;
+}
+
+.modal{
+  width: 700px;
+}
